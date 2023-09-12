@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        ul{
+            list-style: none;
+            padding: 0px;
+        }
+
+        li{
+            float: left;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        th{
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            color: aliceblue;
+            background-color:darkcyan;
+        }
+        td{
+            border: 1px solid lightgray;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .Coluna{
+            background-color: aquamarine;
+        }
+        tfoot td{
+            border: 0px;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>    
+    </nav>
+</head>
+<body>
+    <main>
+        <br>
+            <h1>Exercicio</h1>
+        <hr>
+        <section>
+            <form>
+                <label for="texto"><b>Nome: </b></label>
+                <input type="text" name="nome" id="textoId" placeholder="Digite seu Nome"> 
+                    <br><br>
+                <label for="texto"><b>CPF: </b></label>
+                <input type="text" name="cpf" placeholder="Digite seu CPF">
+                    <br><br>
+                <label for="texto"><b>Endereço: </b></label>
+                <input type="text" name="endereço" placeholder="Digite seu Endereço">
+                    <br><br>
+                <label for="text"><b>Telefone: </b></label>
+                <input type="text" name="telefone" placeholder="Digite seu Telefone">
+                    <br><br>
+                <label for="text"><b>E-mail: </b></label>
+                <input type="text" name="email" placeholder="Digite seu E-mail">
+                    <br><br>
+                <input type="submit" value="Enviar">
+                    &nbsp; &nbsp; <b>|</b> &nbsp; &nbsp;
+                <input type="reset" value="Limpar">
+            </form>
+        </section>
+            <hr>
+        <section>
+            <table>
+                <thead>
+                <colgroup>
+                    <col >
+                    <col class="Coluna" >
+                    <col >
+                    <col class="Coluna" >
+                </colgroup>    
+                    <tr>   
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Endereço</th>
+                        <th>Telefone</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+
+                    <tr>
+                        <td>José</td>
+                        <td>12345678910</td>
+                        <td>Rua das Flores</td>
+                        <td>41 9999-9999</td>
+                        <td>email@dominio.com.br</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+                            <form>
+                                <input type="button" value="Anterior">
+                                &nbsp; &nbsp;
+                                <select name="selecionar">
+                                    <option value="Opção 1">1</option>
+                                    <option value="Opção 2">2</option>
+                                    <option value="Opção 3">3</option>
+                                </select>
+                                &nbsp; &nbsp;
+                                <input type="button" value="Próximo">
+                            </form>
+                        </td>    
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+        <br><br>
+    <footer>
+        <hr>
+        <p>&copy;2023 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
